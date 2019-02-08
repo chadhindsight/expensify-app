@@ -4,6 +4,5 @@ A project based on the React project in Ben Mead's React course availaible on Ud
 
 ## HOW IT WORK
 
-
 ## Under The Hood
 This app was built with React, React Modal, SCSS, and webpack.
