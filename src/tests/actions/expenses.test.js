@@ -10,7 +10,7 @@ test('should setup remove expense action', ()=> {
 })
 
 // Setup test case
-// Call editExpense
+// Call editExpense and test for action object
 test('should setup edit action', ()=> {
     const actionTing = editExpense({id: 'boy'});
     expect(actionTing).toEqual({
