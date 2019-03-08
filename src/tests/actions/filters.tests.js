@@ -1,7 +1,7 @@
 import moment from 'moment';
-import { setEndDate, setStartDate, setTextFilter, sortByDate, sortByAmount, } from '../../actions/filters';
+import { setEndDate, setStartDate, setTextFilter, sortByDate, sortByAmount} from '../../actions/filters';
 
-// Test filters for specifics
+// The tests that ensure your action generators work as intended
 test('should generate setStartDate action object', ()=>{
     const action = setStartDate(moment(0));
     expect(action).toEqual({
