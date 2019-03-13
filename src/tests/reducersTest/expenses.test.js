@@ -54,7 +54,7 @@ test('should edit expense', ()=>{
 });
 
 //NOT
-est('should not edit expense if id not found', () => {
+test('should not edit expense if id not found', () => {
     const amount = 1220;
     const action = {
         type: 'EDIT_EXPENSE',

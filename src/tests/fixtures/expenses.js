@@ -1,5 +1,6 @@
 import moment from 'moment';
-// dummy data
+
+// dummy data to be used in other test files
 export default [{
     id: '1',
     description: 'Gum',
@@ -19,3 +20,4 @@ export default [{
     amount: 4500,
     createdAt: moment(0).add(4, 'days').valueOf()
 }];
+
