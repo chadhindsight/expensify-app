@@ -1,5 +1,6 @@
 import React from 'react';
 import {shallow} from 'enzyme';
+import moment from 'moment';
 import ExpenseForm from '../../components/ExpenseForm';
 import expenses from '../fixtures/expenses';
 
@@ -75,3 +76,17 @@ test('should call onsubmit for valid prop form submission', ()=>{
     });
 });
 
+test('should set new date on date change', ()=>{
+    const now = moment();
+    const wrapper = shallow(<ExpenseForm/>);
+    // get prop from child component
+    wrapper.find('SingleDatePicker').prop('onDateChange')(now);
+    expect(wrapper.state('createdAt')).toEqual(now);
+})
+
+test('should set calander focus on change', ()=>{
+    const focused = true;
+    const wrapper = shallow(<ExpenseForm />);
+    wrapper.find('SingleDatePicker').prop('onFocusChange')({focused})
+    expect(wrapper.state('calendarFocused')).toEqual(focused)
+})
