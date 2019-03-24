@@ -108,7 +108,7 @@ exports[`should render ExpenseListFilters correctly 1`] = `
 </div>
 `;
 
-exports[`should render ExpenseListFilters with alt data correctly 1`] = `
+exports[`should render ExpenseListFilters with alt data 1`] = `
 <div>
   <input
     onChange={[Function]}
