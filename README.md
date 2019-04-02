@@ -1,8 +1,7 @@
-# Expensify
+# Git Commands
 
-A project based on the React project in Ben Mead's React course availaible on Udemy. It is an expense app with react and SCSS athat allows a user to add a list of tasks and then have the app return one task from that list to them. 
-
-## HOW IT WORK
-
-## Under The Hood
-This app was built with React, React Modal, SCSS, and webpack.
+git init - Create a new git repo
+git status - View the changes to your project code
+git add - Add files to staging area
+git commit - Creates a new commit with files from staging area
+git log - View recent commits
