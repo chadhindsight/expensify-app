@@ -13,3 +13,11 @@ app.get('*', (req, res) => {
 app.listen(port, () => {
   console.log('Server is up!');
 });
+<<<<<<< HEAD
+=======
+app.listen(port, () =>{
+    console.log('Server is up!');
+});
+
+// sdfjrofirjfoidjdfgj
+>>>>>>> 0748f023e3a22026c993d2bb4e1de1fdb4458e08
